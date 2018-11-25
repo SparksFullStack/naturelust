@@ -1,4 +1,18 @@
-/* Primary Heading */
+// Base Font-Size
+html {
+    font-size: 62.5%;
+}
+
+// Body Text
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-grey-dark;
+    padding: 3rem;
+}
+
+// Primary Heading Text
 .heading-primary {
     color: $color-white;
     text-transform: uppercase;
