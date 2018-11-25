@@ -7,4 +7,14 @@
     &:not(:last-child){ // here we add the 8rem margin on the bottom to all rows besides the last one on the page
         margin-bottom: $gutter-vertical;
     }
+
+    .col-1-of-2 {
+        width: calc((100% - #{$gutter-horizontal}) / 2); // note that to use a variable with the calc function it needs the special #{} syntax
+        background-color: orangered;
+        float: left;
+
+        &:not(:last-child){
+            margin-right: $gutter-horizontal;
+        }
+    }
 }
