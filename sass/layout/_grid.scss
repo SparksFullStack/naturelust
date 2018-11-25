@@ -1,0 +1,10 @@
+.row {
+    max-width: $grid-width;
+    background-color: #eee;
+    margin: 0 auto;
+   
+
+    &:not(:last-child){ // here we add the 8rem margin on the bottom to all rows besides the last one on the page
+        margin-bottom: $gutter-vertical;
+    }
+}
