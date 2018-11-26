@@ -58,23 +58,27 @@
     &:link,
     &:visited {
         font-size: $default-font-size;
-        color: $color-primary;
+        color: $color-dodger-blue;
         display: inline-block;
         text-decoration: none;
-        border-bottom: 1px solid $color-primary; // this adds the nice line effect under the text
-        padding: 3px;
+        border-bottom: 1px solid $color-dodger-blue; // this adds the nice line effect under the text
+        padding: 7px 15px;
         transition: all .2s;
     }
 
     &:hover {
-        background-color: $color-primary;
+        background-color: $color-dodger-blue;
         color: $color-white;
         box-shadow: 0 1rem 2rem rgba($color-black, .5);
         transform: translateY(-2px);
+        border: 1px solid $color-dodger-blue;
+        border-radius: 5%;
     }
 
     &:active {
         box-shadow: 0 .5rem 1rem rgba($color-black, .5);
         transform: translateY(0);
+        border: 1px solid $color-dodger-blue;
+        border-radius: 5%;
     }
 }
