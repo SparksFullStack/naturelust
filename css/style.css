@@ -237,11 +237,11 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 50rem; }
+  height: 52rem; }
   .card__side {
     background-color: orangered;
     font-size: 2rem;
-    height: 50rem;
+    height: 52rem;
     transition: all 0.8s ease;
     position: absolute;
     top: 0;
@@ -290,20 +290,17 @@ body {
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
   .card__details {
-    text-align: center; }
-    .card__details__list {
+    padding: 3rem; }
+    .card__details ul {
       list-style: none;
-      margin-top: 3rem; }
-      .card__details__list__items {
-        width: 60%;
-        margin: 0 auto;
-        padding-bottom: 5px; }
-        .card__details__list__items:not(:last-child) {
-          border-bottom: 1px solid #e6e6e6; }
-        .card__details__list__items p {
-          font-size: 1.8rem;
-          margin-top: 1rem;
-          font-weight: 600; }
+      width: 80%;
+      margin: 0 auto; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid #eee; }
 
 /* Main Header */
 .header {
