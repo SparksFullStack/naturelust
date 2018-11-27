@@ -110,28 +110,28 @@
     }
 
 
-    // ** this was my freehand styling of the details section
-    // &__details {
-    //     text-align: center;
-    //     &__list {
-    //         list-style: none;
-    //         margin-top: 3rem;
-    //         &__items {
+    // Back Card Styles
+    &__cta {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%; 
+        text-align: center;
+    }
 
-    //             &:not(:last-child) {
-    //                 border-bottom: 1px solid rgb(230, 230, 230);
-    //             }
-                
-    //             width: 60%;
-    //             margin: 0 auto;
-    //             padding-bottom: 5px;
+    &__price-box {
+        margin-bottom: 8rem;
+        color: $color-white;
+    }
 
-    //             & p {
-    //                 font-size: 1.8rem;
-    //                 margin-top: 1rem;
-    //                 font-weight: 600;
-    //             }
-    //         }
-    //     }
-    // }
+    &__price-only {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+
+    &__price-value {
+        font-size: 6rem;
+        font-weight: 100;
+    }
 }
