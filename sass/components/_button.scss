@@ -13,7 +13,7 @@
 
     &:hover {
         transform: translateY(-.3rem);
-        box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+        box-shadow: 0 1rem 2rem $box-shadow-style;
 
         &::after {
             transform: scale(1.5);
@@ -23,7 +23,7 @@
     
     &:active {
         transform: translateY(-.1rem);
-        box-shadow: 0 .5rem 1rem rgba($color-black, 0.2);
+        box-shadow: 0 .5rem 1rem $box-shadow-style;
     }
 
     &::after {
@@ -69,14 +69,14 @@
     &:hover {
         background-color: $color-dodger-blue;
         color: $color-white;
-        box-shadow: 0 1rem 2rem rgba($color-black, .5);
+        box-shadow: 0 1rem 2rem $box-shadow-style;
         transform: translateY(-2px);
         border: 1px solid $color-dodger-blue;
         border-radius: 5%;
     }
 
     &:active {
-        box-shadow: 0 .5rem 1rem rgba($color-black, .5);
+        box-shadow: 0 .5rem 1rem $box-shadow-style;
         transform: translateY(0);
         border: 1px solid $color-dodger-blue;
         border-radius: 5%;
