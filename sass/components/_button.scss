@@ -48,6 +48,15 @@
         }
     }
 
+    &--green {
+        background-image: linear-gradient($color-primary-light, $color-primary-dark);
+        color: $color-white;
+
+        &::after {
+            background-image: linear-gradient($color-primary-light, $color-primary-dark);
+        }
+    }
+
     &--animated {
         animation: moveInBottom .5s ease-out .75s;
         animation-fill-mode: backwards;
