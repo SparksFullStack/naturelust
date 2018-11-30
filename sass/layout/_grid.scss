@@ -4,6 +4,7 @@
    
     @include respond(tab-port){
         max-width: 50rem;
+        padding: 0 3rem;
     }
 
     &:not(:last-child){ // here we add the 8rem margin on the bottom to all rows besides the last one on the page
