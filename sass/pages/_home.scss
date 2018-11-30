@@ -3,6 +3,10 @@
     padding-top: 25rem;
     margin-top: -20vh; // here we move the section up to compensate for the clip path of 75vh
     padding-bottom: 30rem;
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
 }
 
 .section-features {
@@ -19,22 +23,38 @@
     & > * { // this is a direct child selector that selects all children underneath the current element
         transform: skewY(7deg);
     }
+
+    @include respond(tab-port) {
+        padding: 15rem 0;
+    }
 }
 
 .section-tours {
     background-color: $color-grey-light-1;
     padding: 25rem 0 10rem 0;
     margin-top: -11.5rem;
+
+    @include respond(tab-port) {
+        padding: 20rem 0 10rem 0;
+    }
 }
 
 .section-stories {
     padding: 15rem 0;
     position: relative;
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
 }
 
 .section-booking {
     padding: 15rem 0;
     background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
 }
 
 .booking {
