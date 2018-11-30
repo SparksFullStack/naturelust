@@ -23,6 +23,7 @@ $color-grey-dark-3: #333;
 //GRID
 $grid-width: 114rem;
 $gutter-vertical: 8rem; // this refers to the margin on the bottom between the rows
+$gutter-vertical-small: 6rem; // this refers to the margin on the bottom between columns when they stack at 900px and below
 $gutter-horizontal: 6rem; // this refers to the margins between columns
 
 // FONT SIZES
